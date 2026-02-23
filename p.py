@@ -22,5 +22,4 @@ for i in range(25):
 pi = ((a + b)**2) / (4 * t)
 pi_str = str(pi)[:digits + 2]
 
-print(f"\n\nP = {pi_s
-                 tr}")
+print(f"\n\nPi = {pi_str}")
