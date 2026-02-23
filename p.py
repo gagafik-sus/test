@@ -1,7 +1,6 @@
 from decimal import Decimal, getcontext
-import os
 
-digits = int(input("Сколько знаков после запятой? "))
+digits = int(input())
 getcontext().prec = digits + 10
 
 a = Decimal(1)
@@ -17,7 +16,5 @@ for _ in range(25):
     p *= 2
 
 pi = ((a + b)**2) / (4 * t)
-pi_str = str(pi)[:digits + 2]
-
-print(f"\nPi = {pi_st
-                r}")
+print(str(pi)[:digits + 
+      2])
