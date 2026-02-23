@@ -22,7 +22,7 @@ for i in range(1, iterations + 1):
     filled = int(length * i // iterations)
     bar = "#" * filled + "-" * (length - filled)
 
-    sys.stdout.write(f"\rПрогресс: [{bar}] {i}%")
+    sys.stdout.write(f"\rПрогресс: [{bar}] {i}/20")
     sys.stdout.flush()
 
 pi = ((a + b)**2) / (4 * t)
