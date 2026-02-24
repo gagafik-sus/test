@@ -28,5 +28,4 @@ pi_val = ((a + b)**2) / (4 * t)
 pi_str = str(pi_val)[:digits + 2]
 
 sys.stdout.write("\n\nРезультат:\n")
-print(pi
-      _str)
+print(pi_str)
