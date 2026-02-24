@@ -20,12 +20,12 @@ for i in range(1, iterations + 1):
     p *= 2
     
     fill = int(30 * i // iterations)
-    bar = "" * fill + "-" * (30 - fill)
-    sys.stdout.write(f"\rloading: |{bar}| {i}/{iterations}")
+    bar = "#" * fill + "-" * (30 - fill)
+    sys.stdout.write(f"\rВычисление: |{bar}| {i}/{iterations}")
     sys.stdout.flush()
 
-pi = ((a + b)**2) / (4 * t)
-pi_str = str(pi)[:digits + 2]
+pi_val = ((a + b)**2) / (4 * t)
+pi_str = str(pi_val)[:digits + 2]
 
 sys.stdout.write("\n\nРезультат:\n")
 print(pi
