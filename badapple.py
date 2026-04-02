@@ -1,2 +1,0 @@
-print('у меня не получилось реализовать это((')
-os.system('rm -rf ./mods/badapple.py')
